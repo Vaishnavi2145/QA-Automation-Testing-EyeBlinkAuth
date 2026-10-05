@@ -1,4 +1,4 @@
-# Eye-Blink Authentication System — QA Automation Testing
+Eye-Blink Authentication System — QA Automation Testing
 
 A QA automation testing project developed to test the AI-Based Eye-Blink Password Authentication System.
 
@@ -26,8 +26,4 @@ Project Structure
 Related Project
 
 Main Application:
-[AI-Based Eye-Blink Authentication System](MAIN_PROJECT_REPOSITORY_LINK)
-
-QA Automation Testing Repository:
-[Eye-Blink Authentication — QA Automation Testing](https://github.com/Vaishnavi2145/QA-Automation-Testing-EyeBlinkAuth)
-
+[AI-Based Eye-Blink Authentication System](https://github.com/Vaishnavi2145/eye-blink-auth)
