@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EyeBlinkAuth-QA-Suite" parallel="none">
+
+    <test name="UI - Navigation and Forms">
+        <classes>
+            <class name="tests.NavigationTests"/>
+            <class name="tests.SignupFormValidationTests"/>
+            <class name="tests.LoginUiTests"/>
+            <class name="tests.AccessControlUiTests"/>
+        </classes>
+    </test>
+
+    <test name="API - Signup, Login, Access Control">
+        <classes>
+            <class name="api.SignupApiTests"/>
+            <class name="api.LoginApiTests"/>
+            <class name="api.AccessControlApiTests"/>
+        </classes>
+    </test>
+
+</suite>
+
+<!--
+Note: unit.BlinkCountValidatorTest is a plain JUnit4 test (uses Mockito too)
+and runs separately from this TestNG suite:
+    mvn test -Dtest=BlinkCountValidatorTest
+See docs/README.md "Running the suite".
+-->
+
